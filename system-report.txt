@@ -1,0 +1,48 @@
+========================================
+        LINUX SYSTEM REPORT
+        Generated on: Thu Oct 15 03:45:10 AM EDT 2026
+========================================
+
+### HOSTNAME ###
+kali
+
+### KERNEL VERSION ###
+6.12.13-amd64
+
+### DISK USAGE ###
+Filesystem      Size  Used Avail Use% Mounted on
+udev            917M     0  917M   0% /dev
+tmpfs           197M  1.3M  196M   1% /run
+/dev/sda1        79G   15G   60G  20% /
+tmpfs           983M  4.0K  983M   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           983M   80K  983M   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           197M  124K  197M   1% /run/user/1000
+
+### MEMORY USAGE ###
+               total        used        free      shared  buff/cache   available
+Mem:            1964        1365         216          49         594         599
+Swap:           1023         122         901
+
+### TOP RUNNING PROCESSES ###
+    PID USER     %CPU %MEM COMMAND
+  14738 kali      700  0.2 ps -eo pid,user,%cpu,%mem,command --sort=-%cpu
+   6602 kali     13.5 24.1 /usr/lib/firefox-esr/firefox-esr
+   6949 kali      8.3 16.7 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 30646 -prefMapSize 249082 -jsInitLen 234780 -parentBuildID 20250127191809 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {ee371b7d-49e3-4662-a475-250e7302ce04} 6602 true tab
+  14732 kali      7.6  0.1 /bin/bash ./system_report.sh
+   1104 root      5.6  7.1 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+   6724 kali      1.1  6.0 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 30345 -prefMapSize 249082 -jsInitLen 234780 -parentBuildID 20250127191809 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {63125c5e-003a-42fb-976d-a9e89a93c160} 6602 true tab
+   1402 kali      1.1  5.5 xfwm4
+     69 root      0.6  0.0 [kswapd0]
+   9289 kali      0.6  0.4 /usr/bin/zsh
+   9275 kali      0.5  3.0 /usr/bin/qterminal
+   1460 kali      0.5  1.5 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 16777228 cpugraph CPU Graph Graphical representation of the CPU load
+   1462 kali      0.4  0.8 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+   1452 kali      0.3  3.6 xfdesktop
+   1569 kali      0.3  1.0 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+
+========================================
+ Report generation complete.
+========================================
