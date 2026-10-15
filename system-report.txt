@@ -1,3 +1,5 @@
+//this is a sample report
+
 ========================================
         LINUX SYSTEM REPORT
         Generated on: Thu Oct 15 03:45:10 AM EDT 2026
